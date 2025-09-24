@@ -24,8 +24,7 @@
   <img src="https://img.shields.io/badge/Deterministic-4CAF50?style=for-the-badge" alt="Deterministic">
   <img src="https://img.shields.io/badge/FACET_Powered-FF6B6B?style=for-the-badge" alt="FACET Powered">
   <img src="https://img.shields.io/badge/Production_Grade-45B7D1?style=for-the-badge" alt="Production Grade">
-  <img src="https://img.shields.io/badge/Jinja2-B4A732?style=for-the-badge&logo=jinja&logoColor=white" alt="Jinja2">
-</p>
+  </p>
 
 </div>
 
@@ -80,7 +79,7 @@ fssg validate -c config.json
 |---------|-------------|
 | **🎯 Deterministic** | Byte-for-byte identical builds from same inputs |
 | **🛡️ Safe by Default** | Validates FACET spec end-to-end, catches errors early |
-| **⚡ Fast & Efficient** | Optimized rendering pipeline with Jinja2 templating |
+| **⚡ Fast & Efficient** | Optimized rendering pipeline with direct HTML generation |
 | **🔧 CLI Ready** | Full command-line interface with watch mode |
 | **📦 PyPI Package** | Easy installation via pip, no build tools required |
 | **🔍 Audit Trail** | Complete build logs with error codes and diagnostics |
