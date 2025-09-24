@@ -114,13 +114,27 @@ flowchart TD
 
 ## 📁 Repository Layout
 
-| Path | Description |
-| --- | --- |
-| `fssg/` | Python package: parser integration, routing graph, renderer, CLI entry point. |
-| `content/`, `layouts/`, `theme/`, `public/` | Minimal demo site used for local verification and end-to-end smoke tests. |
-| `fssg.config.json` | Reference configuration showcasing deterministic defaults. |
-| `AGENTS.md`, `FSSG.md` | Architectural dossiers detailing roles, pipeline stages, and specification notes. |
-| `archive/` | Legacy demos, experiments, and benchmarks (ignored by Git but handy locally). |
+<div align="center">
+
+| Directory/File | Description |
+|----------------|-------------|
+| **`fssg/`** | Main Python package with source code |
+|  `fssg/__init__.py` | Package initialization and exports |
+|  `fssg/cli.py` | Command-line interface implementation |
+|  `fssg/core.py` | Core FSSG engine and processing logic |
+|  `fssg/config.py` | Configuration management and validation |
+|  `fssg/renderer.py` | HTML rendering and template engine |
+|  `fssg/errors.py` | Error definitions and error codes |
+| **`assets/`** | Visual assets (logo, banner) |
+| **`fssg.config.json`** | Reference configuration file |
+| **`FSSG.md`** | Technical specification and architecture details |
+| **`pyproject.toml`** | Python package configuration |
+| **`README.md`** | Project documentation (this file) |
+| **`LICENSE`** | MIT license file |
+| **`CONTRIBUTING.md`** | Contribution guidelines |
+| **`PUBLISHING.md`** | Package publishing instructions |
+
+</div>
 
 ## 🌐 Part of the FACET Ecosystem
 FSSG is one layer of a deterministic AI stack maintained by [rokoss21](https://github.com/rokoss21). Each project plays a specific role:
