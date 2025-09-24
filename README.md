@@ -7,6 +7,10 @@
   <br>
   <h3>🚀 FACET Static Site Generator</h3>
   <p><em>Turns FACET canonical JSON into production-grade static websites with byte-for-byte reproducible builds.</em></p>
+  <br>
+  <blockquote>
+    <p><strong>Build once, trust forever.</strong></p>
+  </blockquote>
 </div>
 
 ---
