@@ -1,0 +1,36 @@
+# Build outputs
+/dist/
+**/dist/
+
+# Archive of legacy demos
+/archive/
+
+# Ignore local FACET reference implementation (FSSG-only repo)
+/FACET/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+.pytest_cache/
+.coverage
+
+# macOS
+.DS_Store
+
+# Node artifacts
+node_modules/
+package.json
+package-lock.json
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
