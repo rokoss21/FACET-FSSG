@@ -254,7 +254,7 @@ We welcome contributions to make FSSG even better! Here's how you can help:
 
 ## 🙏 Acknowledgments
 
-- Built with ❤️ using Python, Jinja2, and the FACET ecosystem
+- Built with ❤️ using Python and the FACET ecosystem
 - Inspired by the need for deterministic AI tooling
 - Powered by the amazing open-source community
 
